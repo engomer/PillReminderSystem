@@ -1,0 +1,103 @@
+body
+{
+    font-size: 22px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.row:after {
+content: "";
+display: table;
+clear: both;
+
+}
+.row 
+{
+    margin: 0 -5px; 
+   
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 2px;
+}
+.column {
+  float: left;
+  
+  width: 10%;
+  padding: 4px;
+  font-size: 22px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.addpill
+{
+ background-color: orange;
+ color: white;
+ 
+font-family: 'Courier New', Courier, monospace;
+}
+
+.deletepill
+{
+    background-color: blue;
+    color: white;
+    
+    
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.currentpills
+{
+ background-color: brown;
+ 
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button{
+    padding: 5px 10px;
+    font-size: 15px;
+    background-color: #e7e7e7; color: black;
+    border-radius: 8px;
+}
+
+input[type=submit]
+{
+    padding: 10px 24px;
+    font-size: 20px;
+    background-color: #e7e7e7; color: black;
+    border-radius: 8px;
+}
+
+input[type=text]
+{
+    width: 90px;
+    -webkit-user-select: initial;
+    -khtml-user-select: initial;
+    -moz-user-select: initial;
+    -ms-user-select: initial;
+    user-select: initial;
+
+}
+
+input, input:before, input:after {
+    -webkit-user-select: initial;
+    -khtml-user-select: initial;
+    -moz-user-select: initial;
+    -ms-user-select: initial;
+    user-select: initial;
+   } 
+   button, button:before, button:after {
+    -webkit-user-select: initial;
+    -khtml-user-select: initial;
+    -moz-user-select: initial;
+    -ms-user-select: initial;
+    user-select: initial;
+   } 
+
+.entrance
+{
+    background-color: chocolate;
+    text-align: center;
+    margin: 0 auto;
+
+}
